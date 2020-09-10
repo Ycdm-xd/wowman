@@ -1,0 +1,55 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.shell {
+  display: flex;
+}
+
+.nameCell, .priceCell {
+  /* float: left; */
+  background-color: burlywood;
+  height: 2em;
+  width: 20em;
+  border-width: 0.2em;
+  border-color: black;
+  border-style: solid;
+  margin: 0.25em;
+  padding: 0.1em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 750;
+  display: flex;
+  align-items: center;
+}
+
+.nameField, .priceField {
+  display: flex;
+  align-content: center;
+  font-size: 1.25em;
+  background-color: inherit;
+  color: black;
+
+  height: 1.6em;
+  min-height: 1.6em;
+  max-height: 1.6em;
+  width: 19.2em;
+  min-width: 19.2em;
+  max-width: 19.2em;
+}
+
+.priceCell {
+  width: 4.2em;
+}
+
+.priceField {
+  width: 3.8em;
+  min-width: 3.8em;
+  max-width: 3.8em;
+}
